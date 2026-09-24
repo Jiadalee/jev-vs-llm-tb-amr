@@ -1,0 +1,29 @@
+========================================================================
+Jev vs LLM — AMR decision comparison (same evidence, model differs)
+========================================================================
+Sample: test_data1
+  Agreement: 27/27 (100%)
+  Disagreements: none
+  Runtime: Jev 0.6s vs LLM 173.5s (313x slower)
+
+Sample: test_data2
+  Agreement: 26/27 (96%)
+  Disagreements:
+    - amikacin eis c-37g (resistance-associated): Jev=resistant, LLM=unknown
+  Runtime: Jev 0.5s vs LLM 194.4s (392x slower)
+
+Sample: test_data3
+  Agreement: 13/14 (93%)
+  Disagreements:
+    - isoniazid fabG1 c-15t (resistance-associated): Jev=resistant, LLM=unknown
+  Runtime: Jev 0.6s vs LLM 231.8s (390x slower)
+
+Sample: test_data4
+  Agreement: 13/13 (100%)
+  Disagreements: none
+  Runtime: Jev 0.6s vs LLM 140.8s (244x slower)
+
+Sample: test_data5
+  Agreement: 16/16 (100%)
+  Disagreements: none
+  Runtime: Jev 0.5s vs LLM 95.7s (178x slower)

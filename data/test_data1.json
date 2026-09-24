@@ -1,0 +1,29 @@
+{
+  "sample_id": "test_data1",
+  "description": "Reconstructed MDR/Pre-XDR-like M. tuberculosis isolate variant profile (amino-acid and promoter changes relative to H37Rv). Catalogue filter yields 27 decision items.",
+  "mutations": [
+    {"gene": "rpoB",  "change": "S450L", "nucleotide": "c.1349C>T",  "depth": 142, "alt_fraction": 0.99},
+    {"gene": "rpoB",  "change": "H445Y", "nucleotide": "c.1333C>T",  "depth": 138, "alt_fraction": 0.98},
+    {"gene": "rpoB",  "change": "D435V", "nucleotide": "c.1304A>T",  "depth": 141, "alt_fraction": 0.97},
+    {"gene": "rpoB",  "change": "S441L", "nucleotide": "c.1322C>T",  "depth": 137, "alt_fraction": 0.96},
+    {"gene": "rpoC",  "change": "V170F", "nucleotide": "c.508G>T",   "depth": 129, "alt_fraction": 0.99},
+    {"gene": "katG",  "change": "S315T", "nucleotide": "c.944G>C",   "depth": 151, "alt_fraction": 0.99},
+    {"gene": "katG",  "change": "S315N", "nucleotide": "c.944G>A",   "depth": 148, "alt_fraction": 0.98},
+    {"gene": "katG",  "change": "W300G", "nucleotide": "c.900G>C",   "depth": 133, "alt_fraction": 0.97},
+    {"gene": "fabG1", "change": "c-15t", "nucleotide": "c.-15C>T",   "depth": 144, "alt_fraction": 0.99},
+    {"gene": "embB",  "change": "M306V", "nucleotide": "c.916A>G",   "depth": 126, "alt_fraction": 0.98},
+    {"gene": "embB",  "change": "G406A", "nucleotide": "c.1217G>C",  "depth": 119, "alt_fraction": 0.96},
+    {"gene": "embC",  "change": "I497F", "nucleotide": "c.1489A>T",  "depth": 117, "alt_fraction": 0.98},
+    {"gene": "pncA",  "change": "H51R",  "nucleotide": "c.152A>G",   "depth": 131, "alt_fraction": 0.99},
+    {"gene": "pncA",  "change": "W119G", "nucleotide": "c.355T>G",   "depth": 128, "alt_fraction": 0.98},
+    {"gene": "pncA",  "change": "D136N", "nucleotide": "c.406G>A",   "depth": 122, "alt_fraction": 0.97},
+    {"gene": "gyrA",  "change": "A90V",  "nucleotide": "c.269C>G",   "depth": 135, "alt_fraction": 0.98},
+    {"gene": "gyrA",  "change": "S91P",  "nucleotide": "c.272T>C",   "depth": 133, "alt_fraction": 0.97},
+    {"gene": "gyrA",  "change": "D94G",  "nucleotide": "c.281A>G",   "depth": 139, "alt_fraction": 0.99},
+    {"gene": "gyrB",  "change": "N538D", "nucleotide": "c.1612A>G",  "depth": 121, "alt_fraction": 0.96},
+    {"gene": "rrs",   "change": "A1401G", "nucleotide": "c.1401A>G", "depth": 147, "alt_fraction": 0.99},
+    {"gene": "eis",   "change": "c-37g", "nucleotide": "c.-37G>A",   "depth": 130, "alt_fraction": 0.98},
+    {"gene": "eis",   "change": "c-12t", "nucleotide": "c.-12T>C",   "depth": 127, "alt_fraction": 0.97},
+    {"gene": "rpsL",  "change": "K43R",  "nucleotide": "c.128A>G",   "depth": 125, "alt_fraction": 0.99}
+  ]
+}

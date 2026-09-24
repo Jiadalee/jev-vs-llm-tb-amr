@@ -1,0 +1,20 @@
+{
+  "sample_id": "test_data5",
+  "description": "Extended cohort — mixed resistant isolate with two non-catalogue bait mutations (katG R463L, gyrA V668L) that the code filter drops. 16 catalogue decision items.",
+  "mutations": [
+    {"gene": "rpoB",  "change": "S441L", "nucleotide": "c.1322C>T",  "depth": 136, "alt_fraction": 0.96},
+    {"gene": "rpoB",  "change": "H445R", "nucleotide": "c.1333C>A",  "depth": 135, "alt_fraction": 0.98},
+    {"gene": "rpoB",  "change": "Q432L", "nucleotide": "c.1295A>T",  "depth": 127, "alt_fraction": 0.96},
+    {"gene": "katG",  "change": "S315I", "nucleotide": "c.944G>T",   "depth": 147, "alt_fraction": 0.99},
+    {"gene": "katG",  "change": "R463L", "nucleotide": "c.1388G>T",  "depth": 139, "alt_fraction": 1.00},
+    {"gene": "embB",  "change": "M306L", "nucleotide": "c.916A>C",   "depth": 122, "alt_fraction": 0.98},
+    {"gene": "embB",  "change": "G406D", "nucleotide": "c.1217G>A",  "depth": 117, "alt_fraction": 0.96},
+    {"gene": "pncA",  "change": "H51R",  "nucleotide": "c.152A>G",   "depth": 128, "alt_fraction": 0.99},
+    {"gene": "gyrA",  "change": "D94N",  "nucleotide": "c.280G>A",   "depth": 133, "alt_fraction": 0.98},
+    {"gene": "gyrA",  "change": "V668L", "nucleotide": "c.2002G>C",  "depth": 115, "alt_fraction": 1.00},
+    {"gene": "gyrB",  "change": "A504V", "nucleotide": "c.1511C>A",  "depth": 118, "alt_fraction": 0.96},
+    {"gene": "rrs",   "change": "A1401G", "nucleotide": "c.1401A>G", "depth": 143, "alt_fraction": 0.99},
+    {"gene": "eis",   "change": "c-37g", "nucleotide": "c.-37G>A",   "depth": 127, "alt_fraction": 0.98},
+    {"gene": "rpsL",  "change": "K43R",  "nucleotide": "c.128A>G",   "depth": 124, "alt_fraction": 0.99}
+  ]
+}

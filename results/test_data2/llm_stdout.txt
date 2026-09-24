@@ -1,0 +1,44 @@
+========================================================================================
+AMR prediction report — LLM arm — sample test_data2
+========================================================================================
+
+#    Drug           Mutation       WHO class    Decision   Conf.      Catalogue id
+----------------------------------------------------------------------------------------
+1    rifampicin     rpoB S450L     Assoc-R      resistant  0.99       rpoB-S450L
+2    rifampicin     rpoB H445D     Assoc-R      resistant  0.98       rpoB-H445D
+3    rifampicin     rpoB L430P     Assoc-R      resistant  0.98       rpoB-L430P
+4    rifampicin     rpoB Q432L     Uncertain    unknown    0.9        rpoB-Q432L
+5    rifampicin     rpoC V170F     Uncertain    unknown    0.85       rpoC-V170F
+6    isoniazid      katG S315T     Assoc-R      resistant  0.98       katG-S315T
+7    isoniazid      katG S315N     Assoc-R      resistant  0.98       katG-S315N
+8    isoniazid      fabG1 c-15t    Assoc-R      resistant  0.99       fabG1-c-15t
+9    ethambutol     embB M306L     Assoc-R      resistant  0.95       embB-M306L
+10   ethambutol     embB G406D     Assoc-R      resistant  0.95       embB-G406D
+11   ethambutol     embB D354A     Uncertain    unknown    0.85       embB-D354A
+12   pyrazinamide   pncA H51R      Assoc-R      resistant  0.98       pncA-H51R
+13   pyrazinamide   pncA W119G     Assoc-R      resistant  None       pncA-W119G
+14   levofloxacin   gyrA D94G      Assoc-R      resistant  0.98       gyrA-D94G-LEV
+15   moxifloxacin   gyrA D94G      Assoc-R      resistant  0.98       gyrA-D94G-MXF
+16   levofloxacin   gyrA D94N      Assoc-R      resistant  0.98       gyrA-D94N-LEV
+17   moxifloxacin   gyrA D94N      Assoc-R      resistant  0.98       gyrA-D94N-MXF
+18   levofloxacin   gyrA D89N      Uncertain    unknown    0.8        gyrA-D89N-LEV
+19   moxifloxacin   gyrA D89N      Uncertain    unknown    0.85       gyrA-D89N-MXF
+20   moxifloxacin   gyrB A504V     Uncertain    unknown    0.9        gyrB-A504V
+21   amikacin       rrs A1401G     Assoc-R      resistant  0.98       rrs-A1401G-AMI
+22   kanamycin      rrs A1401G     Assoc-R      resistant  0.98       rrs-A1401G-KAN
+23   capreomycin    rrs A1401G     Assoc-R      resistant  0.98       rrs-A1401G-CAP
+24   capreomycin    rrs C1402T     Uncertain    unknown    0.85       rrs-C1402T-CAP
+25   amikacin       eis c-37g      Assoc-R      unknown    None       eis-c-37g
+26   amikacin       rpsL K88E      Assoc-R      resistant  0.95       rpsL-K88E-AMI
+27   kanamycin      rpsL K88E      Assoc-R      resistant  0.98       rpsL-K88E-KAN
+----------------------------------------------------------------------------------------
+Decisions: 19 resistant / 0 no / 8 unknown (of 27 items)
+
+Runtime:
+  n_calls            27
+  mean_call_s        7.2
+  total_s            194.41
+
+Model: Qwen/Qwen3.8-27B | 27 SEQUENTIAL chat calls | mean 7.20s/call
+Slowest calls: q24_amikacin_eis_c-37g 49.9s, q07_isoniazid_fabG1_c-15t 16.8s, q17_levofloxacin_gyrA_D89N 14.9s
+

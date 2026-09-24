@@ -1,0 +1,17 @@
+{
+  "sample_id": "test_data4",
+  "description": "Extended cohort — poly-resistant isolate without rifampicin resistance; includes several uncertain-evidence items. 13 catalogue decision items.",
+  "mutations": [
+    {"gene": "katG",  "change": "S315N", "nucleotide": "c.944G>A",   "depth": 146, "alt_fraction": 0.98},
+    {"gene": "fabG1", "change": "c-15t", "nucleotide": "c.-15C>T",   "depth": 141, "alt_fraction": 0.99},
+    {"gene": "embB",  "change": "M306I", "nucleotide": "c.918G>A",   "depth": 122, "alt_fraction": 0.97},
+    {"gene": "embB",  "change": "G406A", "nucleotide": "c.1217G>C",  "depth": 118, "alt_fraction": 0.96},
+    {"gene": "embB",  "change": "D354A", "nucleotide": "c.1061A>C",  "depth": 113, "alt_fraction": 0.35},
+    {"gene": "pncA",  "change": "D136N", "nucleotide": "c.406G>A",   "depth": 121, "alt_fraction": 0.97},
+    {"gene": "gyrA",  "change": "S91P",  "nucleotide": "c.272T>C",   "depth": 132, "alt_fraction": 0.97},
+    {"gene": "gyrA",  "change": "D89N",  "nucleotide": "c.265G>A",   "depth": 119, "alt_fraction": 0.40},
+    {"gene": "eis",   "change": "c-12t", "nucleotide": "c.-12T>C",   "depth": 126, "alt_fraction": 0.97},
+    {"gene": "rpsL",  "change": "K88E",  "nucleotide": "c.262A>G",   "depth": 123, "alt_fraction": 0.99},
+    {"gene": "rrs",   "change": "C1402T", "nucleotide": "c.1402C>T", "depth": 111, "alt_fraction": 0.38}
+  ]
+}

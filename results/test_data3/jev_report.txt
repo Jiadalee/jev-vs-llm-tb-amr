@@ -1,0 +1,31 @@
+========================================================================================
+AMR prediction report — Jev arm — sample test_data3
+========================================================================================
+
+#    Drug           Mutation       WHO class    Decision   Conf.      Catalogue id
+----------------------------------------------------------------------------------------
+1    rifampicin     rpoB S450L     Assoc-R      resistant  0.97       rpoB-S450L
+2    rifampicin     rpoB H445Y     Assoc-R      resistant  0.97       rpoB-H445Y
+3    rifampicin     rpoC V170F     Uncertain    unknown    0.62       rpoC-V170F
+4    isoniazid      katG S315T     Assoc-R      resistant  0.97       katG-S315T
+5    isoniazid      katG W300G     Uncertain    unknown    0.62       katG-W300G
+6    isoniazid      fabG1 c-15t    Assoc-R      resistant  0.97       fabG1-c-15t
+7    ethambutol     embB M306V     Assoc-R      resistant  0.97       embB-M306V
+8    ethambutol     embC I497F     Uncertain    unknown    0.62       embC-I497F
+9    pyrazinamide   pncA H51R      Assoc-R      resistant  0.97       pncA-H51R
+10   pyrazinamide   pncA W119G     Assoc-R      resistant  0.97       pncA-W119G
+11   levofloxacin   gyrA A90V      Assoc-R      resistant  0.97       gyrA-A90V-LEV
+12   levofloxacin   gyrA D94G      Assoc-R      resistant  0.97       gyrA-D94G-LEV
+13   moxifloxacin   gyrA D94G      Assoc-R      resistant  0.97       gyrA-D94G-MXF
+14   moxifloxacin   gyrB N538D     Uncertain    unknown    0.62       gyrB-N538D
+----------------------------------------------------------------------------------------
+Decisions: 10 resistant / 0 no / 4 unknown (of 14 items)
+
+Runtime:
+  filter_s           0.236
+  decision_call_s    0.359
+  attribution_s      0.0
+  total_s            0.595
+
+Model: jev-mock | Questions: 14 in ONE call | Non-catalogue mutations dropped by code filter: none
+API usage: {'input_tokens': 0, 'output_tokens': 0, 'cost_usd': 0.0}

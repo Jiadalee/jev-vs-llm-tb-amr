@@ -1,0 +1,33 @@
+========================================================================================
+AMR prediction report — LLM arm — sample test_data5
+========================================================================================
+
+#    Drug           Mutation       WHO class    Decision   Conf.      Catalogue id
+----------------------------------------------------------------------------------------
+1    rifampicin     rpoB S441L     Assoc-R      resistant  0.98       rpoB-S441L
+2    rifampicin     rpoB H445R     Assoc-R      resistant  0.98       rpoB-H445R
+3    rifampicin     rpoB Q432L     Uncertain    unknown    0.8        rpoB-Q432L
+4    isoniazid      katG S315I     Assoc-R      resistant  0.98       katG-S315I
+5    ethambutol     embB M306L     Assoc-R      resistant  0.95       embB-M306L
+6    ethambutol     embB G406D     Assoc-R      resistant  0.95       embB-G406D
+7    pyrazinamide   pncA H51R      Assoc-R      resistant  0.98       pncA-H51R
+8    levofloxacin   gyrA D94N      Assoc-R      resistant  0.98       gyrA-D94N-LEV
+9    moxifloxacin   gyrA D94N      Assoc-R      resistant  0.98       gyrA-D94N-MXF
+10   moxifloxacin   gyrB A504V     Uncertain    unknown    0.9        gyrB-A504V
+11   amikacin       rrs A1401G     Assoc-R      resistant  0.98       rrs-A1401G-AMI
+12   kanamycin      rrs A1401G     Assoc-R      resistant  0.98       rrs-A1401G-KAN
+13   capreomycin    rrs A1401G     Assoc-R      resistant  0.98       rrs-A1401G-CAP
+14   amikacin       eis c-37g      Assoc-R      resistant  0.95       eis-c-37g
+15   amikacin       rpsL K43R      Assoc-R      resistant  0.95       rpsL-K43R-AMI
+16   kanamycin      rpsL K43R      Assoc-R      resistant  0.98       rpsL-K43R-KAN
+----------------------------------------------------------------------------------------
+Decisions: 14 resistant / 0 no / 2 unknown (of 16 items)
+
+Runtime:
+  n_calls            16
+  mean_call_s        5.98
+  total_s            95.74
+
+Model: Qwen/Qwen3.8-27B | 16 SEQUENTIAL chat calls | mean 5.98s/call
+Slowest calls: q03_isoniazid_katG_S315I 39.7s, q00_rifampicin_rpoB_S441L 13.1s, q02_rifampicin_rpoB_Q432L 6.8s
+
