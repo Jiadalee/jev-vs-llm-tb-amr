@@ -1,0 +1,922 @@
+{
+  "arm": "jev",
+  "sample_id": "test_data2",
+  "model": "jev-mock",
+  "n_questions": 27,
+  "dropped_non_catalogue_mutations": [
+    "katG R463L",
+    "gyrA A384V",
+    "gyrA V668L"
+  ],
+  "state": {
+    "sample_id": "test_data2",
+    "evidence": [
+      {
+        "id": "q00_rifampicin_rpoB_S450L",
+        "drug": "rifampicin",
+        "mutation": "rpoB S450L (c.1349C>T)",
+        "read_depth": 139,
+        "alt_fraction": 0.99,
+        "who_catalogue_association": "resistance-associated",
+        "who_grading": "Assoc 1"
+      },
+      {
+        "id": "q01_rifampicin_rpoB_H445D",
+        "drug": "rifampicin",
+        "mutation": "rpoB H445D (c.1333C>G)",
+        "read_depth": 136,
+        "alt_fraction": 0.98,
+        "who_catalogue_association": "resistance-associated",
+        "who_grading": "Assoc 1"
+      },
+      {
+        "id": "q02_rifampicin_rpoB_L430P",
+        "drug": "rifampicin",
+        "mutation": "rpoB L430P (c.1289T>C)",
+        "read_depth": 134,
+        "alt_fraction": 0.97,
+        "who_catalogue_association": "resistance-associated",
+        "who_grading": "Assoc 1"
+      },
+      {
+        "id": "q03_rifampicin_rpoB_Q432L",
+        "drug": "rifampicin",
+        "mutation": "rpoB Q432L (c.1295A>T)",
+        "read_depth": 128,
+        "alt_fraction": 0.96,
+        "who_catalogue_association": "uncertain",
+        "who_grading": "Assoc 3"
+      },
+      {
+        "id": "q04_rifampicin_rpoC_V170F",
+        "drug": "rifampicin",
+        "mutation": "rpoC V170F (c.508G>T)",
+        "read_depth": 127,
+        "alt_fraction": 0.99,
+        "who_catalogue_association": "uncertain",
+        "who_grading": "Assoc 3"
+      },
+      {
+        "id": "q05_isoniazid_katG_S315T",
+        "drug": "isoniazid",
+        "mutation": "katG S315T (c.944G>C)",
+        "read_depth": 149,
+        "alt_fraction": 0.99,
+        "who_catalogue_association": "resistance-associated",
+        "who_grading": "Assoc 1"
+      },
+      {
+        "id": "q06_isoniazid_katG_S315N",
+        "drug": "isoniazid",
+        "mutation": "katG S315N (c.944G>A)",
+        "read_depth": 145,
+        "alt_fraction": 0.98,
+        "who_catalogue_association": "resistance-associated",
+        "who_grading": "Assoc 1"
+      },
+      {
+        "id": "q07_isoniazid_fabG1_c-15t",
+        "drug": "isoniazid",
+        "mutation": "fabG1 c-15t (c.-15C>T)",
+        "read_depth": 142,
+        "alt_fraction": 0.99,
+        "who_catalogue_association": "resistance-associated",
+        "who_grading": "Assoc 1"
+      },
+      {
+        "id": "q08_ethambutol_embB_M306L",
+        "drug": "ethambutol",
+        "mutation": "embB M306L (c.916A>C)",
+        "read_depth": 123,
+        "alt_fraction": 0.98,
+        "who_catalogue_association": "resistance-associated",
+        "who_grading": "Assoc 1"
+      },
+      {
+        "id": "q09_ethambutol_embB_G406D",
+        "drug": "ethambutol",
+        "mutation": "embB G406D (c.1217G>A)",
+        "read_depth": 118,
+        "alt_fraction": 0.96,
+        "who_catalogue_association": "resistance-associated",
+        "who_grading": "Assoc 1"
+      },
+      {
+        "id": "q10_ethambutol_embB_D354A",
+        "drug": "ethambutol",
+        "mutation": "embB D354A (c.1061A>C)",
+        "read_depth": 114,
+        "alt_fraction": 0.35,
+        "who_catalogue_association": "uncertain",
+        "who_grading": "Assoc 3"
+      },
+      {
+        "id": "q11_pyrazinamide_pncA_H51R",
+        "drug": "pyrazinamide",
+        "mutation": "pncA H51R (c.152A>G)",
+        "read_depth": 129,
+        "alt_fraction": 0.99,
+        "who_catalogue_association": "resistance-associated",
+        "who_grading": "Assoc 1"
+      },
+      {
+        "id": "q12_pyrazinamide_pncA_W119G",
+        "drug": "pyrazinamide",
+        "mutation": "pncA W119G (c.355T>G)",
+        "read_depth": 126,
+        "alt_fraction": 0.98,
+        "who_catalogue_association": "resistance-associated",
+        "who_grading": "Assoc 1"
+      },
+      {
+        "id": "q13_levofloxacin_gyrA_D94G",
+        "drug": "levofloxacin",
+        "mutation": "gyrA D94G (c.281A>G)",
+        "read_depth": 137,
+        "alt_fraction": 0.99,
+        "who_catalogue_association": "resistance-associated",
+        "who_grading": "Assoc 1"
+      },
+      {
+        "id": "q14_moxifloxacin_gyrA_D94G",
+        "drug": "moxifloxacin",
+        "mutation": "gyrA D94G (c.281A>G)",
+        "read_depth": 137,
+        "alt_fraction": 0.99,
+        "who_catalogue_association": "resistance-associated",
+        "who_grading": "Assoc 1"
+      },
+      {
+        "id": "q15_levofloxacin_gyrA_D94N",
+        "drug": "levofloxacin",
+        "mutation": "gyrA D94N (c.280G>A)",
+        "read_depth": 134,
+        "alt_fraction": 0.98,
+        "who_catalogue_association": "resistance-associated",
+        "who_grading": "Assoc 1"
+      },
+      {
+        "id": "q16_moxifloxacin_gyrA_D94N",
+        "drug": "moxifloxacin",
+        "mutation": "gyrA D94N (c.280G>A)",
+        "read_depth": 134,
+        "alt_fraction": 0.98,
+        "who_catalogue_association": "resistance-associated",
+        "who_grading": "Assoc 1"
+      },
+      {
+        "id": "q17_levofloxacin_gyrA_D89N",
+        "drug": "levofloxacin",
+        "mutation": "gyrA D89N (c.265G>A)",
+        "read_depth": 122,
+        "alt_fraction": 0.4,
+        "who_catalogue_association": "uncertain",
+        "who_grading": "Assoc 3"
+      },
+      {
+        "id": "q18_moxifloxacin_gyrA_D89N",
+        "drug": "moxifloxacin",
+        "mutation": "gyrA D89N (c.265G>A)",
+        "read_depth": 122,
+        "alt_fraction": 0.4,
+        "who_catalogue_association": "uncertain",
+        "who_grading": "Assoc 3"
+      },
+      {
+        "id": "q19_moxifloxacin_gyrB_A504V",
+        "drug": "moxifloxacin",
+        "mutation": "gyrB A504V (c.1511C>A)",
+        "read_depth": 119,
+        "alt_fraction": 0.96,
+        "who_catalogue_association": "uncertain",
+        "who_grading": "Assoc 3"
+      },
+      {
+        "id": "q20_amikacin_rrs_A1401G",
+        "drug": "amikacin",
+        "mutation": "rrs A1401G (c.1401A>G)",
+        "read_depth": 144,
+        "alt_fraction": 0.99,
+        "who_catalogue_association": "resistance-associated",
+        "who_grading": "Assoc 1"
+      },
+      {
+        "id": "q21_kanamycin_rrs_A1401G",
+        "drug": "kanamycin",
+        "mutation": "rrs A1401G (c.1401A>G)",
+        "read_depth": 144,
+        "alt_fraction": 0.99,
+        "who_catalogue_association": "resistance-associated",
+        "who_grading": "Assoc 1"
+      },
+      {
+        "id": "q22_capreomycin_rrs_A1401G",
+        "drug": "capreomycin",
+        "mutation": "rrs A1401G (c.1401A>G)",
+        "read_depth": 144,
+        "alt_fraction": 0.99,
+        "who_catalogue_association": "resistance-associated",
+        "who_grading": "Assoc 1"
+      },
+      {
+        "id": "q23_capreomycin_rrs_C1402T",
+        "drug": "capreomycin",
+        "mutation": "rrs C1402T (c.1402C>T)",
+        "read_depth": 112,
+        "alt_fraction": 0.38,
+        "who_catalogue_association": "uncertain",
+        "who_grading": "Assoc 3"
+      },
+      {
+        "id": "q24_amikacin_eis_c-37g",
+        "drug": "amikacin",
+        "mutation": "eis c-37g (c.-37G>A)",
+        "read_depth": 128,
+        "alt_fraction": 0.98,
+        "who_catalogue_association": "resistance-associated",
+        "who_grading": "Assoc 1"
+      },
+      {
+        "id": "q25_amikacin_rpsL_K88E",
+        "drug": "amikacin",
+        "mutation": "rpsL K88E (c.262A>G)",
+        "read_depth": 124,
+        "alt_fraction": 0.99,
+        "who_catalogue_association": "resistance-associated",
+        "who_grading": "Assoc 1"
+      },
+      {
+        "id": "q26_kanamycin_rpsL_K88E",
+        "drug": "kanamycin",
+        "mutation": "rpsL K88E (c.262A>G)",
+        "read_depth": 124,
+        "alt_fraction": 0.99,
+        "who_catalogue_association": "resistance-associated",
+        "who_grading": "Assoc 1"
+      }
+    ]
+  },
+  "answers": {
+    "q00_rifampicin_rpoB_S450L": {
+      "type": "choice",
+      "choice": "resistant",
+      "confidence": 0.97,
+      "probabilities": {
+        "resistant": 0.97,
+        "no": 0.015,
+        "unknown": 0.015
+      }
+    },
+    "q01_rifampicin_rpoB_H445D": {
+      "type": "choice",
+      "choice": "resistant",
+      "confidence": 0.97,
+      "probabilities": {
+        "resistant": 0.97,
+        "no": 0.015,
+        "unknown": 0.015
+      }
+    },
+    "q02_rifampicin_rpoB_L430P": {
+      "type": "choice",
+      "choice": "resistant",
+      "confidence": 0.97,
+      "probabilities": {
+        "resistant": 0.97,
+        "no": 0.015,
+        "unknown": 0.015
+      }
+    },
+    "q03_rifampicin_rpoB_Q432L": {
+      "type": "choice",
+      "choice": "unknown",
+      "confidence": 0.62,
+      "probabilities": {
+        "resistant": 0.015,
+        "no": 0.015,
+        "unknown": 0.97
+      }
+    },
+    "q04_rifampicin_rpoC_V170F": {
+      "type": "choice",
+      "choice": "unknown",
+      "confidence": 0.62,
+      "probabilities": {
+        "resistant": 0.015,
+        "no": 0.015,
+        "unknown": 0.97
+      }
+    },
+    "q05_isoniazid_katG_S315T": {
+      "type": "choice",
+      "choice": "resistant",
+      "confidence": 0.97,
+      "probabilities": {
+        "resistant": 0.97,
+        "no": 0.015,
+        "unknown": 0.015
+      }
+    },
+    "q06_isoniazid_katG_S315N": {
+      "type": "choice",
+      "choice": "resistant",
+      "confidence": 0.97,
+      "probabilities": {
+        "resistant": 0.97,
+        "no": 0.015,
+        "unknown": 0.015
+      }
+    },
+    "q07_isoniazid_fabG1_c-15t": {
+      "type": "choice",
+      "choice": "resistant",
+      "confidence": 0.97,
+      "probabilities": {
+        "resistant": 0.97,
+        "no": 0.015,
+        "unknown": 0.015
+      }
+    },
+    "q08_ethambutol_embB_M306L": {
+      "type": "choice",
+      "choice": "resistant",
+      "confidence": 0.97,
+      "probabilities": {
+        "resistant": 0.97,
+        "no": 0.015,
+        "unknown": 0.015
+      }
+    },
+    "q09_ethambutol_embB_G406D": {
+      "type": "choice",
+      "choice": "resistant",
+      "confidence": 0.97,
+      "probabilities": {
+        "resistant": 0.97,
+        "no": 0.015,
+        "unknown": 0.015
+      }
+    },
+    "q10_ethambutol_embB_D354A": {
+      "type": "choice",
+      "choice": "unknown",
+      "confidence": 0.62,
+      "probabilities": {
+        "resistant": 0.015,
+        "no": 0.015,
+        "unknown": 0.97
+      }
+    },
+    "q11_pyrazinamide_pncA_H51R": {
+      "type": "choice",
+      "choice": "resistant",
+      "confidence": 0.97,
+      "probabilities": {
+        "resistant": 0.97,
+        "no": 0.015,
+        "unknown": 0.015
+      }
+    },
+    "q12_pyrazinamide_pncA_W119G": {
+      "type": "choice",
+      "choice": "resistant",
+      "confidence": 0.97,
+      "probabilities": {
+        "resistant": 0.97,
+        "no": 0.015,
+        "unknown": 0.015
+      }
+    },
+    "q13_levofloxacin_gyrA_D94G": {
+      "type": "choice",
+      "choice": "resistant",
+      "confidence": 0.97,
+      "probabilities": {
+        "resistant": 0.97,
+        "no": 0.015,
+        "unknown": 0.015
+      }
+    },
+    "q14_moxifloxacin_gyrA_D94G": {
+      "type": "choice",
+      "choice": "resistant",
+      "confidence": 0.97,
+      "probabilities": {
+        "resistant": 0.97,
+        "no": 0.015,
+        "unknown": 0.015
+      }
+    },
+    "q15_levofloxacin_gyrA_D94N": {
+      "type": "choice",
+      "choice": "resistant",
+      "confidence": 0.97,
+      "probabilities": {
+        "resistant": 0.97,
+        "no": 0.015,
+        "unknown": 0.015
+      }
+    },
+    "q16_moxifloxacin_gyrA_D94N": {
+      "type": "choice",
+      "choice": "resistant",
+      "confidence": 0.97,
+      "probabilities": {
+        "resistant": 0.97,
+        "no": 0.015,
+        "unknown": 0.015
+      }
+    },
+    "q17_levofloxacin_gyrA_D89N": {
+      "type": "choice",
+      "choice": "unknown",
+      "confidence": 0.62,
+      "probabilities": {
+        "resistant": 0.015,
+        "no": 0.015,
+        "unknown": 0.97
+      }
+    },
+    "q18_moxifloxacin_gyrA_D89N": {
+      "type": "choice",
+      "choice": "unknown",
+      "confidence": 0.62,
+      "probabilities": {
+        "resistant": 0.015,
+        "no": 0.015,
+        "unknown": 0.97
+      }
+    },
+    "q19_moxifloxacin_gyrB_A504V": {
+      "type": "choice",
+      "choice": "unknown",
+      "confidence": 0.62,
+      "probabilities": {
+        "resistant": 0.015,
+        "no": 0.015,
+        "unknown": 0.97
+      }
+    },
+    "q20_amikacin_rrs_A1401G": {
+      "type": "choice",
+      "choice": "resistant",
+      "confidence": 0.97,
+      "probabilities": {
+        "resistant": 0.97,
+        "no": 0.015,
+        "unknown": 0.015
+      }
+    },
+    "q21_kanamycin_rrs_A1401G": {
+      "type": "choice",
+      "choice": "resistant",
+      "confidence": 0.97,
+      "probabilities": {
+        "resistant": 0.97,
+        "no": 0.015,
+        "unknown": 0.015
+      }
+    },
+    "q22_capreomycin_rrs_A1401G": {
+      "type": "choice",
+      "choice": "resistant",
+      "confidence": 0.97,
+      "probabilities": {
+        "resistant": 0.97,
+        "no": 0.015,
+        "unknown": 0.015
+      }
+    },
+    "q23_capreomycin_rrs_C1402T": {
+      "type": "choice",
+      "choice": "unknown",
+      "confidence": 0.62,
+      "probabilities": {
+        "resistant": 0.015,
+        "no": 0.015,
+        "unknown": 0.97
+      }
+    },
+    "q24_amikacin_eis_c-37g": {
+      "type": "choice",
+      "choice": "resistant",
+      "confidence": 0.97,
+      "probabilities": {
+        "resistant": 0.97,
+        "no": 0.015,
+        "unknown": 0.015
+      }
+    },
+    "q25_amikacin_rpsL_K88E": {
+      "type": "choice",
+      "choice": "resistant",
+      "confidence": 0.97,
+      "probabilities": {
+        "resistant": 0.97,
+        "no": 0.015,
+        "unknown": 0.015
+      }
+    },
+    "q26_kanamycin_rpsL_K88E": {
+      "type": "choice",
+      "choice": "resistant",
+      "confidence": 0.97,
+      "probabilities": {
+        "resistant": 0.97,
+        "no": 0.015,
+        "unknown": 0.015
+      }
+    }
+  },
+  "usage": {
+    "input_tokens": 0,
+    "output_tokens": 0,
+    "cost_usd": 0.0
+  },
+  "timing": {
+    "filter_s": 0.097,
+    "decision_call_s": 0.399,
+    "attribution_s": 0.0,
+    "total_s": 0.496
+  },
+  "decisions": [
+    {
+      "item_id": "q00_rifampicin_rpoB_S450L",
+      "drug": "rifampicin",
+      "gene": "rpoB",
+      "change": "S450L",
+      "association": "resistance-associated",
+      "decision": "resistant",
+      "confidence": 0.97,
+      "probabilities": {
+        "resistant": 0.97,
+        "no": 0.015,
+        "unknown": 0.015
+      }
+    },
+    {
+      "item_id": "q01_rifampicin_rpoB_H445D",
+      "drug": "rifampicin",
+      "gene": "rpoB",
+      "change": "H445D",
+      "association": "resistance-associated",
+      "decision": "resistant",
+      "confidence": 0.97,
+      "probabilities": {
+        "resistant": 0.97,
+        "no": 0.015,
+        "unknown": 0.015
+      }
+    },
+    {
+      "item_id": "q02_rifampicin_rpoB_L430P",
+      "drug": "rifampicin",
+      "gene": "rpoB",
+      "change": "L430P",
+      "association": "resistance-associated",
+      "decision": "resistant",
+      "confidence": 0.97,
+      "probabilities": {
+        "resistant": 0.97,
+        "no": 0.015,
+        "unknown": 0.015
+      }
+    },
+    {
+      "item_id": "q03_rifampicin_rpoB_Q432L",
+      "drug": "rifampicin",
+      "gene": "rpoB",
+      "change": "Q432L",
+      "association": "uncertain",
+      "decision": "unknown",
+      "confidence": 0.62,
+      "probabilities": {
+        "resistant": 0.015,
+        "no": 0.015,
+        "unknown": 0.97
+      }
+    },
+    {
+      "item_id": "q04_rifampicin_rpoC_V170F",
+      "drug": "rifampicin",
+      "gene": "rpoC",
+      "change": "V170F",
+      "association": "uncertain",
+      "decision": "unknown",
+      "confidence": 0.62,
+      "probabilities": {
+        "resistant": 0.015,
+        "no": 0.015,
+        "unknown": 0.97
+      }
+    },
+    {
+      "item_id": "q05_isoniazid_katG_S315T",
+      "drug": "isoniazid",
+      "gene": "katG",
+      "change": "S315T",
+      "association": "resistance-associated",
+      "decision": "resistant",
+      "confidence": 0.97,
+      "probabilities": {
+        "resistant": 0.97,
+        "no": 0.015,
+        "unknown": 0.015
+      }
+    },
+    {
+      "item_id": "q06_isoniazid_katG_S315N",
+      "drug": "isoniazid",
+      "gene": "katG",
+      "change": "S315N",
+      "association": "resistance-associated",
+      "decision": "resistant",
+      "confidence": 0.97,
+      "probabilities": {
+        "resistant": 0.97,
+        "no": 0.015,
+        "unknown": 0.015
+      }
+    },
+    {
+      "item_id": "q07_isoniazid_fabG1_c-15t",
+      "drug": "isoniazid",
+      "gene": "fabG1",
+      "change": "c-15t",
+      "association": "resistance-associated",
+      "decision": "resistant",
+      "confidence": 0.97,
+      "probabilities": {
+        "resistant": 0.97,
+        "no": 0.015,
+        "unknown": 0.015
+      }
+    },
+    {
+      "item_id": "q08_ethambutol_embB_M306L",
+      "drug": "ethambutol",
+      "gene": "embB",
+      "change": "M306L",
+      "association": "resistance-associated",
+      "decision": "resistant",
+      "confidence": 0.97,
+      "probabilities": {
+        "resistant": 0.97,
+        "no": 0.015,
+        "unknown": 0.015
+      }
+    },
+    {
+      "item_id": "q09_ethambutol_embB_G406D",
+      "drug": "ethambutol",
+      "gene": "embB",
+      "change": "G406D",
+      "association": "resistance-associated",
+      "decision": "resistant",
+      "confidence": 0.97,
+      "probabilities": {
+        "resistant": 0.97,
+        "no": 0.015,
+        "unknown": 0.015
+      }
+    },
+    {
+      "item_id": "q10_ethambutol_embB_D354A",
+      "drug": "ethambutol",
+      "gene": "embB",
+      "change": "D354A",
+      "association": "uncertain",
+      "decision": "unknown",
+      "confidence": 0.62,
+      "probabilities": {
+        "resistant": 0.015,
+        "no": 0.015,
+        "unknown": 0.97
+      }
+    },
+    {
+      "item_id": "q11_pyrazinamide_pncA_H51R",
+      "drug": "pyrazinamide",
+      "gene": "pncA",
+      "change": "H51R",
+      "association": "resistance-associated",
+      "decision": "resistant",
+      "confidence": 0.97,
+      "probabilities": {
+        "resistant": 0.97,
+        "no": 0.015,
+        "unknown": 0.015
+      }
+    },
+    {
+      "item_id": "q12_pyrazinamide_pncA_W119G",
+      "drug": "pyrazinamide",
+      "gene": "pncA",
+      "change": "W119G",
+      "association": "resistance-associated",
+      "decision": "resistant",
+      "confidence": 0.97,
+      "probabilities": {
+        "resistant": 0.97,
+        "no": 0.015,
+        "unknown": 0.015
+      }
+    },
+    {
+      "item_id": "q13_levofloxacin_gyrA_D94G",
+      "drug": "levofloxacin",
+      "gene": "gyrA",
+      "change": "D94G",
+      "association": "resistance-associated",
+      "decision": "resistant",
+      "confidence": 0.97,
+      "probabilities": {
+        "resistant": 0.97,
+        "no": 0.015,
+        "unknown": 0.015
+      }
+    },
+    {
+      "item_id": "q14_moxifloxacin_gyrA_D94G",
+      "drug": "moxifloxacin",
+      "gene": "gyrA",
+      "change": "D94G",
+      "association": "resistance-associated",
+      "decision": "resistant",
+      "confidence": 0.97,
+      "probabilities": {
+        "resistant": 0.97,
+        "no": 0.015,
+        "unknown": 0.015
+      }
+    },
+    {
+      "item_id": "q15_levofloxacin_gyrA_D94N",
+      "drug": "levofloxacin",
+      "gene": "gyrA",
+      "change": "D94N",
+      "association": "resistance-associated",
+      "decision": "resistant",
+      "confidence": 0.97,
+      "probabilities": {
+        "resistant": 0.97,
+        "no": 0.015,
+        "unknown": 0.015
+      }
+    },
+    {
+      "item_id": "q16_moxifloxacin_gyrA_D94N",
+      "drug": "moxifloxacin",
+      "gene": "gyrA",
+      "change": "D94N",
+      "association": "resistance-associated",
+      "decision": "resistant",
+      "confidence": 0.97,
+      "probabilities": {
+        "resistant": 0.97,
+        "no": 0.015,
+        "unknown": 0.015
+      }
+    },
+    {
+      "item_id": "q17_levofloxacin_gyrA_D89N",
+      "drug": "levofloxacin",
+      "gene": "gyrA",
+      "change": "D89N",
+      "association": "uncertain",
+      "decision": "unknown",
+      "confidence": 0.62,
+      "probabilities": {
+        "resistant": 0.015,
+        "no": 0.015,
+        "unknown": 0.97
+      }
+    },
+    {
+      "item_id": "q18_moxifloxacin_gyrA_D89N",
+      "drug": "moxifloxacin",
+      "gene": "gyrA",
+      "change": "D89N",
+      "association": "uncertain",
+      "decision": "unknown",
+      "confidence": 0.62,
+      "probabilities": {
+        "resistant": 0.015,
+        "no": 0.015,
+        "unknown": 0.97
+      }
+    },
+    {
+      "item_id": "q19_moxifloxacin_gyrB_A504V",
+      "drug": "moxifloxacin",
+      "gene": "gyrB",
+      "change": "A504V",
+      "association": "uncertain",
+      "decision": "unknown",
+      "confidence": 0.62,
+      "probabilities": {
+        "resistant": 0.015,
+        "no": 0.015,
+        "unknown": 0.97
+      }
+    },
+    {
+      "item_id": "q20_amikacin_rrs_A1401G",
+      "drug": "amikacin",
+      "gene": "rrs",
+      "change": "A1401G",
+      "association": "resistance-associated",
+      "decision": "resistant",
+      "confidence": 0.97,
+      "probabilities": {
+        "resistant": 0.97,
+        "no": 0.015,
+        "unknown": 0.015
+      }
+    },
+    {
+      "item_id": "q21_kanamycin_rrs_A1401G",
+      "drug": "kanamycin",
+      "gene": "rrs",
+      "change": "A1401G",
+      "association": "resistance-associated",
+      "decision": "resistant",
+      "confidence": 0.97,
+      "probabilities": {
+        "resistant": 0.97,
+        "no": 0.015,
+        "unknown": 0.015
+      }
+    },
+    {
+      "item_id": "q22_capreomycin_rrs_A1401G",
+      "drug": "capreomycin",
+      "gene": "rrs",
+      "change": "A1401G",
+      "association": "resistance-associated",
+      "decision": "resistant",
+      "confidence": 0.97,
+      "probabilities": {
+        "resistant": 0.97,
+        "no": 0.015,
+        "unknown": 0.015
+      }
+    },
+    {
+      "item_id": "q23_capreomycin_rrs_C1402T",
+      "drug": "capreomycin",
+      "gene": "rrs",
+      "change": "C1402T",
+      "association": "uncertain",
+      "decision": "unknown",
+      "confidence": 0.62,
+      "probabilities": {
+        "resistant": 0.015,
+        "no": 0.015,
+        "unknown": 0.97
+      }
+    },
+    {
+      "item_id": "q24_amikacin_eis_c-37g",
+      "drug": "amikacin",
+      "gene": "eis",
+      "change": "c-37g",
+      "association": "resistance-associated",
+      "decision": "resistant",
+      "confidence": 0.97,
+      "probabilities": {
+        "resistant": 0.97,
+        "no": 0.015,
+        "unknown": 0.015
+      }
+    },
+    {
+      "item_id": "q25_amikacin_rpsL_K88E",
+      "drug": "amikacin",
+      "gene": "rpsL",
+      "change": "K88E",
+      "association": "resistance-associated",
+      "decision": "resistant",
+      "confidence": 0.97,
+      "probabilities": {
+        "resistant": 0.97,
+        "no": 0.015,
+        "unknown": 0.015
+      }
+    },
+    {
+      "item_id": "q26_kanamycin_rpsL_K88E",
+      "drug": "kanamycin",
+      "gene": "rpsL",
+      "change": "K88E",
+      "association": "resistance-associated",
+      "decision": "resistant",
+      "confidence": 0.97,
+      "probabilities": {
+        "resistant": 0.97,
+        "no": 0.015,
+        "unknown": 0.015
+      }
+    }
+  ]
+}

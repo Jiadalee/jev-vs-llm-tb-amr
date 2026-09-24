@@ -1,0 +1,30 @@
+========================================================================================
+AMR prediction report — LLM arm — sample test_data4
+========================================================================================
+
+#    Drug           Mutation       WHO class    Decision   Conf.      Catalogue id
+----------------------------------------------------------------------------------------
+1    isoniazid      katG S315N     Assoc-R      resistant  0.98       katG-S315N
+2    isoniazid      fabG1 c-15t    Assoc-R      resistant  0.97       fabG1-c-15t
+3    ethambutol     embB M306I     Assoc-R      resistant  0.98       embB-M306I
+4    ethambutol     embB G406A     Assoc-R      resistant  0.98       embB-G406A
+5    ethambutol     embB D354A     Uncertain    unknown    0.85       embB-D354A
+6    pyrazinamide   pncA D136N     Uncertain    unknown    0.85       pncA-D136N
+7    levofloxacin   gyrA S91P      Assoc-R      resistant  0.98       gyrA-S91P-LEV
+8    levofloxacin   gyrA D89N      Uncertain    unknown    0.9        gyrA-D89N-LEV
+9    moxifloxacin   gyrA D89N      Uncertain    unknown    0.85       gyrA-D89N-MXF
+10   kanamycin      eis c-12t      Assoc-R      resistant  0.95       eis-c-12t
+11   amikacin       rpsL K88E      Assoc-R      resistant  0.95       rpsL-K88E-AMI
+12   kanamycin      rpsL K88E      Assoc-R      resistant  0.98       rpsL-K88E-KAN
+13   capreomycin    rrs C1402T     Uncertain    unknown    0.9        rrs-C1402T-CAP
+----------------------------------------------------------------------------------------
+Decisions: 8 resistant / 0 no / 5 unknown (of 13 items)
+
+Runtime:
+  n_calls            13
+  mean_call_s        10.82
+  total_s            140.79
+
+Model: Qwen/Qwen3.8-27B | 13 SEQUENTIAL chat calls | mean 10.82s/call
+Slowest calls: q10_amikacin_rpsL_K88E 25.6s, q02_ethambutol_embB_M306I 20.8s, q04_ethambutol_embB_D354A 16.7s
+

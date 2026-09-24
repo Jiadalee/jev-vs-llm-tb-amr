@@ -1,0 +1,30 @@
+========================================================================================
+AMR prediction report — LLM arm — sample test_data3
+========================================================================================
+
+#    Drug           Mutation       WHO class    Decision   Conf.      Catalogue id
+----------------------------------------------------------------------------------------
+1    rifampicin     rpoB S450L     Assoc-R      resistant  0.99       rpoB-S450L
+2    rifampicin     rpoB H445Y     Assoc-R      resistant  0.98       rpoB-H445Y
+3    rifampicin     rpoC V170F     Uncertain    unknown    0.85       rpoC-V170F
+4    isoniazid      katG S315T     Assoc-R      resistant  0.98       katG-S315T
+5    isoniazid      katG W300G     Uncertain    unknown    0.95       katG-W300G
+6    isoniazid      fabG1 c-15t    Assoc-R      unknown    None       fabG1-c-15t
+7    ethambutol     embB M306V     Assoc-R      resistant  0.95       embB-M306V
+8    ethambutol     embC I497F     Uncertain    unknown    0.85       embC-I497F
+9    pyrazinamide   pncA H51R      Assoc-R      resistant  0.98       pncA-H51R
+10   pyrazinamide   pncA W119G     Assoc-R      resistant  0.98       pncA-W119G
+11   levofloxacin   gyrA A90V      Assoc-R      resistant  0.98       gyrA-A90V-LEV
+12   levofloxacin   gyrA D94G      Assoc-R      resistant  0.98       gyrA-D94G-LEV
+13   moxifloxacin   gyrA D94G      Assoc-R      resistant  0.98       gyrA-D94G-MXF
+14   moxifloxacin   gyrB N538D     Uncertain    unknown    0.55       gyrB-N538D
+----------------------------------------------------------------------------------------
+Decisions: 9 resistant / 0 no / 5 unknown (of 14 items)
+
+Runtime:
+  n_calls            14
+  mean_call_s        16.55
+  total_s            231.84
+
+Model: Qwen/Qwen3.8-27B | 14 SEQUENTIAL chat calls | mean 16.55s/call
+Slowest calls: q05_isoniazid_fabG1_c-15t 121.8s, q13_moxifloxacin_gyrB_N538D 59.5s, q03_isoniazid_katG_S315T 16.3s

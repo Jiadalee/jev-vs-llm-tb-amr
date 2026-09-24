@@ -1,0 +1,30 @@
+{
+  "sample_id": "test_data2",
+  "description": "Reconstructed M. tuberculosis isolate variant profile. Contains two uncertain-evidence items (embB D354A for ethambutol, rrs C1402T for capreomycin) and three non-catalogue bait mutations (katG R463L, gyrA A384V, gyrA V668L) that the code filter must drop. Catalogue filter yields 27 decision items.",
+  "mutations": [
+    {"gene": "rpoB",  "change": "S450L", "nucleotide": "c.1349C>T",  "depth": 139, "alt_fraction": 0.99},
+    {"gene": "rpoB",  "change": "H445D", "nucleotide": "c.1333C>G",  "depth": 136, "alt_fraction": 0.98},
+    {"gene": "rpoB",  "change": "L430P", "nucleotide": "c.1289T>C",  "depth": 134, "alt_fraction": 0.97},
+    {"gene": "rpoB",  "change": "Q432L", "nucleotide": "c.1295A>T",  "depth": 128, "alt_fraction": 0.96},
+    {"gene": "rpoC",  "change": "V170F", "nucleotide": "c.508G>T",   "depth": 127, "alt_fraction": 0.99},
+    {"gene": "katG",  "change": "S315T", "nucleotide": "c.944G>C",   "depth": 149, "alt_fraction": 0.99},
+    {"gene": "katG",  "change": "S315N", "nucleotide": "c.944G>A",   "depth": 145, "alt_fraction": 0.98},
+    {"gene": "katG",  "change": "R463L", "nucleotide": "c.1388G>T",  "depth": 141, "alt_fraction": 1.00},
+    {"gene": "fabG1", "change": "c-15t", "nucleotide": "c.-15C>T",   "depth": 142, "alt_fraction": 0.99},
+    {"gene": "embB",  "change": "M306L", "nucleotide": "c.916A>C",   "depth": 123, "alt_fraction": 0.98},
+    {"gene": "embB",  "change": "G406D", "nucleotide": "c.1217G>A",  "depth": 118, "alt_fraction": 0.96},
+    {"gene": "embB",  "change": "D354A", "nucleotide": "c.1061A>C",  "depth": 114, "alt_fraction": 0.35},
+    {"gene": "pncA",  "change": "H51R",  "nucleotide": "c.152A>G",   "depth": 129, "alt_fraction": 0.99},
+    {"gene": "pncA",  "change": "W119G", "nucleotide": "c.355T>G",   "depth": 126, "alt_fraction": 0.98},
+    {"gene": "gyrA",  "change": "D94G",  "nucleotide": "c.281A>G",   "depth": 137, "alt_fraction": 0.99},
+    {"gene": "gyrA",  "change": "D94N",  "nucleotide": "c.280G>A",   "depth": 134, "alt_fraction": 0.98},
+    {"gene": "gyrA",  "change": "D89N",  "nucleotide": "c.265G>A",   "depth": 122, "alt_fraction": 0.40},
+    {"gene": "gyrA",  "change": "A384V", "nucleotide": "c.1151C>T",  "depth": 118, "alt_fraction": 0.99},
+    {"gene": "gyrA",  "change": "V668L", "nucleotide": "c.2002G>C",  "depth": 116, "alt_fraction": 1.00},
+    {"gene": "gyrB",  "change": "A504V", "nucleotide": "c.1511C>A",  "depth": 119, "alt_fraction": 0.96},
+    {"gene": "rrs",   "change": "A1401G", "nucleotide": "c.1401A>G", "depth": 144, "alt_fraction": 0.99},
+    {"gene": "rrs",   "change": "C1402T", "nucleotide": "c.1402C>T", "depth": 112, "alt_fraction": 0.38},
+    {"gene": "eis",   "change": "c-37g", "nucleotide": "c.-37G>A",   "depth": 128, "alt_fraction": 0.98},
+    {"gene": "rpsL",  "change": "K88E",  "nucleotide": "c.262A>G",   "depth": 124, "alt_fraction": 0.99}
+  ]
+}
