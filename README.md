@@ -3,7 +3,7 @@
 [![DOI](https://zenodo.org/badge/DOI:10.5281/zenodo.TODO.svg)](https://doi.org/10.5281/zenodo.TODO)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
 
-**Catalog-grounded tuberculosis drug-resistance prediction: a "System One" decision model (Jev) versus a generative LLM (Qwen3.8-27B) on identical evidence.**
+**Catalog-grounded tuberculosis drug-resistance prediction: a "System One" decision model (Jev from typesafe AI https://typesafe.ai/) versus a generative LLM (Qwen3.8-27B) on identical evidence.**
 
 > Cite this work via the "Cite this repository" button on GitHub (powered by
 > [`citation.cff`](citation.cff)). To get a real DOI badge, mint one free at
