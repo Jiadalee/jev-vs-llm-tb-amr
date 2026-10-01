@@ -9,13 +9,13 @@
 > [`citation.cff`](citation.cff)). To get a real DOI badge, mint one free at
 > [Zenodo](https://zenodo.org) and replace the placeholder above.
 
-This repo reproduces a head-to-head comparison of two ways to answer the same 27 typed
+This repo reproduces a head-to-head comparison of two ways to answer the same 97 typed
 drug-resistance questions per *Mycobacterium tuberculosis* isolate:
 
 | Arm | Design | Latency profile |
 |---|---|---|
-| **Jev** (TypeSafe AI, hosted Decision API) | All 27 typed `choice` questions in **one round trip**; returns calibrated typed answers — no free text | ~0.4 s per isolate |
-| **Qwen/Qwen3.8-27B** (OpenRouter, vLLM-backed) | **27 sequential chat calls**, one per drug decision, strict-JSON prompt | 6–17 s per call; 96–232 s per isolate |
+| **Jev** (TypeSafe AI, hosted Decision API) | All 97 typed `choice` questions in **one round trip**; returns calibrated typed answers — no free text | ~0.4 s per isolate |
+| **Qwen/Qwen3.8-27B** (OpenRouter, vLLM-backed) | **97 sequential chat calls**, one per drug decision, strict-JSON prompt | 6–17 s per call; 96–232 s per isolate |
 
 The design principle under test: **filter first in code, send only what the question needs;
 judgment = model, facts = code.** The WHO catalogue lookup and question construction are
@@ -82,7 +82,7 @@ Keys are read from environment variables only and are never written to files or 
 
 ```
 ├── predict_amr_catalog.py   # Jev arm: 1 typed-questions call; timing.decision_call_s/attribution_s/total_s
-├── predict_amr_llm.py       # LLM arm: 27 sequential calls; per-drug seconds + total
+├── predict_amr_llm.py       # LLM arm: 97 sequential calls; per-drug seconds + total
 ├── compare_models.py        # agreement + runtime lines -> model_comparison.txt
 ├── amr_common.py            # catalogue filter, evidence state, report renderer
 ├── scripts/make_race_gif.py # animated accuracy/speed race from real latency traces
